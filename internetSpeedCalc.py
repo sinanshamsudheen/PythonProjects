@@ -27,7 +27,7 @@ lab.place(x=50,y=350,height=30,width=300)
 lab_up=Label(st,text="00",font=("Arial",20,"bold"),fg="black")
 lab_up.place(x=50,y=400,height=30,width=300)
 
-button=Button(st,text="Check speed",font=("Arial",30,"bold"),fg="blue",command=speed)
+button=Button(st,text="Check speed",font=("Arial",30,"bold"),fg="blue",relief=RAISED,command=speed)
 button.place(x=70,y=550,height=50,width=260)
 
 st.mainloop()
