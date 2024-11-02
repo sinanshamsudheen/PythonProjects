@@ -6,7 +6,7 @@ bot.login(username=user,password=pw)
 
 n=1
 while n!=0:
-    print("choose,\n1-follow\n2-unfollow\n3-block\n4-unblock\n5-upload\n0-exit")
+    print("choose,\n1-follow\n2-unfollow\n3-block\n4-unblock\n5-upload\n6-get followers list\n0-exit")
     n=int(input("Enter choice: "))
     if n==1:
         u=input("enter username to follow: ")
@@ -24,6 +24,12 @@ while n!=0:
         path=input("enter image path to upload: ")
         cap=input("enter caption: ")
         bot.upload_photo(path,caption=cap)
+    elif n==6:
+        usr=input("enter username to get followers list: ")
+        followers=bot.get_user_followers(usr)
+        for i in followers:
+            print(bot.get_user_info(i))
+
 print("Thankyou! Youre logged out!")
 bot.logout()
         
