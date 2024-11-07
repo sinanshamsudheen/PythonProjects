@@ -4,6 +4,8 @@ import datetime
 import speech_recognition as sr
 import pyttsx3
 import sys
+import time
+import os
 
 def sptext():
     recognizer=sr.Recognizer()
@@ -40,10 +42,12 @@ if __name__=='__main__':
             speech(f"the time is {time}")
         elif "joke" in command or "jokes" in command:
             joke=pyjokes.get_joke(language="en",category="neutral")
-            speech(joke)
+            speech(f"here's a joke for you, {joke} ")
+
         elif "what is" in command or "what are" in command:
             query=command.replace("what is","").replace("what are","").strip()
             webbrowser.open(f"https://www.google.com/search?q={query}")
+
         elif "youtube" in command and "search" in command:
             query=command.replace("youtube","").replace("search","").replace("for","").replace("open","").replace("and","").strip()
             speech(f"opening youtube and searching for {query}")
@@ -57,9 +61,38 @@ if __name__=='__main__':
         elif "internet" in command and "speed" in command:
             speech("opening fast.com")
             webbrowser.open("https://fast.com")
+            # speech("speed test app")
+            # path="D:/VsCode/PythonProjects/internetSpeedCalc.py"
+            os.system(f"python {path}")
+        elif "open" in command and ("map" in command or "maps" in command):
+            speech("opening google maps")
+            webbrowser.open("https://maps.google.com")
+        elif "open" in command and ("downloads" in command or "download" in command):
+            path="D:/IDM"
+            speech("opening downloads folder")
+            os.startfile(path)
+        elif "organised" in command and ("downloads" in command or "download" in command):
+            speech("Organizing your downloads")
+            path="D:\VsCode\PythonProjects\AutoFileSorter.py"
+            os.system(f"python {path}")
+            speech("your downloads have been organized")
+        elif "open" in command and ("evernote" in command):
+            speech("opening evernote")
+            os.startfile("C:/Users/zero/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Evernote.lnk")
+        elif "open" in command and ("github" in command):
+            speech("opening github")
+            webbrowser.open("https://github.com/sinanshamsudheen")
         else:
-            print("try again")
-        
+            speech("no commands were captured, do you want to exit?")
+            ans=sptext()
+            choice=ans.lower()
+            if "exit" in choice and "yes" in choice:
+                speech("thankyou, have a great day!")
+                sys.exit()
+            else:
+                speech("please repeat your command")
+        time.sleep(5)
+
     
 
 

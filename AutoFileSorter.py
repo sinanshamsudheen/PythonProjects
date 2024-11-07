@@ -1,9 +1,10 @@
 
 import os
 import shutil
-import tkinter as tk
+# import tkinter as tk
 from tkinter import messagebox
-
+import sys
+import time
 
 path = r"C:/Users/zero/Downloads"
 path2 = r"D:\IDM"
@@ -73,5 +74,7 @@ for file in file_names:
             print("Some file were not organized!")
 
 print("Files have been organized.")
-tk.Tk().withdraw()
-messagebox.showinfo(title="Alert",message="Files were moved!")
+# tk.Tk().withdraw()
+# messagebox.showinfo(title="Alert",message="Files were moved!")
+# time.sleep(20)
+sys.exit()
