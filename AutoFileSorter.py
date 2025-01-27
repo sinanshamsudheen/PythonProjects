@@ -11,7 +11,7 @@ path2 = r"D:\IDM"
 
 file_names = os.listdir(path)
 
-folder_names = ['Video', 'Music', 'Documents', 'Compressed', 'Images','Programs','Books','Office','Subs']
+folder_names = ['Video', 'Music', 'Documents', 'Compressed', 'Images','Programs','Books','Office','Subs','Others']
 
 # Create folders if they don't exist
 for folder in folder_names:
@@ -71,7 +71,7 @@ for file in file_names:
         elif file.endswith('.xlsx') and not os.path.exists(os.path.join(path2,"Office",file)):
             shutil.move(file_path,os.path.join(path2,"Office",file))
         else:
-            print("Some file were not organized!")
+            shutil.move(file_path,os.path.join(path2,"Others",file))
 
 print("Files have been organized.")
 # tk.Tk().withdraw()
