@@ -1,6 +1,6 @@
 #This program will remove all hyperlinks from a pdf
 import fitz
-
+import os
 def remove_hyperlinks(input_pdf):
     doc = fitz.open(input_pdf)
     for page in doc:
@@ -14,5 +14,8 @@ def remove_hyperlinks(input_pdf):
     doc.close()
     print(f"Hyperlinks removed. Saved as: {final_output_path}")
 
-input_pdf = input("enter pdf path: ")
-remove_hyperlinks(input_pdf)
+# input_pdf = input("enter pdf path: ")
+# remove_hyperlinks(input_pdf)
+for entry in os.scandir("D:\IDM\Hyper\Input"):
+    remove_hyperlinks(entry.path)
+    os.remove(entry)
