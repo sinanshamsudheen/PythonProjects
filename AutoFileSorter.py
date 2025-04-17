@@ -1,80 +1,67 @@
-
 import os
 import shutil
-# import tkinter as tk
-from tkinter import messagebox
 import sys
-import time
 
-path = r"C:/Users/zero/Downloads"
-path2 = r"D:\IDM"
+source_dir = "/home/zero/Downloads"
+base_dir = "/home/zero"
 
-file_names = os.listdir(path)
+extension_mapping = {
+    # 📄 Documents
+    ('.pdf', '.doc', '.txt', '.rtf', '.odt', '.md'): "Documents",
+    ('.ppt','.docx', '.pptx', '.xls', '.xlsx', '.xlsm', '.xltx', '.xlam', '.csv', '.tsv'): "Documents/Office",
+    ('.srt', '.vtt', '.sub'): "Documents/Subtitles",
+    ('.epub', '.mobi', '.azw3'): "Documents/Books",
 
-folder_names = ['Video', 'Music', 'Documents', 'Compressed', 'Images','Programs','Books','Office','Subs','Others']
+    # 🎵 Music & Audio
+    ('.mp3', '.wav', '.flac', '.ogg', '.aac', '.m4a', '.wma'): "Music",
 
-# Create folders if they don't exist
-for folder in folder_names:
-    folder_path = os.path.join(path2, folder)
-    if not os.path.exists(folder_path):
-        print(f"Creating folder: {folder_path}")
-        os.makedirs(folder_path)
+    # 🎬 Videos
+    ('.mp4', '.mkv', '.avi', '.mov', '.flv', '.wmv', '.webm', '.mpeg'): "Videos",
 
-# Move files to respective folders
+    # 📦 Archives & Compressed Files
+    ('.zip', '.rar', '.7z', '.tar', '.gz', '.bz2', '.xz', '.iso'): "Compressed",
+
+    # 🖼️ Images
+    ('.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.webp', '.svg', '.ico'): "Pictures",
+
+    # 💻 Programs & Installers
+    ('.AppImage', '.deb', '.rpm', '.exe', '.msi', '.sh', '.bin', '.run'): "Programs"
+}
+
+file_names = os.listdir(source_dir)
+created_dirs = set()
+
+def create_folder(path):
+    if path not in created_dirs:
+        os.makedirs(path, exist_ok=True)
+        print(f"Ensured folder exists: {path}")
+        created_dirs.add(path)
+
+# Organize files
 for file in file_names:
-    file_path = os.path.join(path, file)
-    if os.path.isfile(file_path):
-        if file.endswith('.pdf') and not os.path.exists(os.path.join(path2, "Documents", file)):
-            shutil.move(file_path, os.path.join(path2, "Documents", file))
-        elif file.endswith('.docx') and not os.path.exists(os.path.join(path2, "Documents", file)):
-            shutil.move(file_path, os.path.join(path2, "Documents", file))
-        elif file.endswith('.txt') and not os.path.exists(os.path.join(path2, "Documents", file)):
-            shutil.move(file_path, os.path.join(path2, "Documents", file))
-        elif file.endswith('.mp3') and not os.path.exists(os.path.join(path2, "Music", file)):
-            shutil.move(file_path, os.path.join(path2, "Music", file))
-        elif file.endswith('.wav') and not os.path.exists(os.path.join(path2, "Music", file)):
-            shutil.move(file_path, os.path.join(path2, "Music", file))
-        elif file.endswith('.flac') and not os.path.exists(os.path.join(path2, "Music", file)):
-            shutil.move(file_path, os.path.join(path2, "Music", file))
-        elif file.endswith('.ogg') and not os.path.exists(os.path.join(path2, "Music", file)):
-            shutil.move(file_path, os.path.join(path2, "Music", file))
-        elif file.endswith('.mp4') and not os.path.exists(os.path.join(path2, "Video", file)):
-            shutil.move(file_path, os.path.join(path2, "Video", file))
-        elif file.endswith('.mkv') and not os.path.exists(os.path.join(path2, "Video", file)):
-            shutil.move(file_path, os.path.join(path2, "Video", file))
-        elif file.endswith('.avi') and not os.path.exists(os.path.join(path2, "Video", file)):
-            shutil.move(file_path, os.path.join(path2, "Video", file))
-        elif file.endswith('.zip') and not os.path.exists(os.path.join(path2, "Compressed", file)):
-            shutil.move(file_path, os.path.join(path2, "Compressed", file))
-        elif file.endswith('.rar') and not os.path.exists(os.path.join(path2, "Compressed", file)):
-            shutil.move(file_path, os.path.join(path2, "Compressed", file))
-        elif file.endswith('.png') and not os.path.exists(os.path.join(path2, "Images", file)):
-            shutil.move(file_path, os.path.join(path2, "Images", file))
-        elif file.endswith('.jpg') and not os.path.exists(os.path.join(path2, "Images", file)):
-            shutil.move(file_path, os.path.join(path2, "Images", file))
-        elif file.endswith('.jpeg') and not os.path.exists(os.path.join(path2, "Images", file)):
-            shutil.move(file_path, os.path.join(path2, "Images", file))
-        elif file.endswith('.exe') and not os.path.exists(os.path.join(path2, "Programs", file)):
-            shutil.move(file_path, os.path.join(path2, "Programs", file))
-        elif file.endswith('.epub') and not os.path.exists(os.path.join(path2, "Books", file)):
-            shutil.move(file_path, os.path.join(path2, "Books", file))
-        elif file.endswith('.pptx') and not os.path.exists(os.path.join(path2, "Office", file)):
-            shutil.move(file_path, os.path.join(path2, "Office", file))
-        elif file.endswith('.srt') and not os.path.exists(os.path.join(path2,"Subs",file)):
-            shutil.move(file_path,os.path.join(path2,"Subs",file))
-        elif file.endswith('.xlsm') and not os.path.exists(os.path.join(path2,"Office",file)):
-            shutil.move(file_path,os.path.join(path2,"Office" , file))
-        elif file.endswith('.xlam') and not os.path.exists(os.path.join(path2,"Office",file)):
-            shutil.move(file_path,os.path.join(path2,"Office" ,file))
-        elif file.endswith('.csv') and not os.path.exists(os.path.join(path2,"Office",file)):
-            shutil.move(file_path,os.path.join(path2,"Office",file))
-        elif file.endswith('.xlsx') and not os.path.exists(os.path.join(path2,"Office",file)):
-            shutil.move(file_path,os.path.join(path2,"Office",file))
-        else:
-            shutil.move(file_path,os.path.join(path2,"Others",file))
+    file_path = os.path.join(source_dir, file)
+    if not os.path.isfile(file_path):
+        continue
 
-print("Files have been organized.")
-# tk.Tk().withdraw()
-# messagebox.showinfo(title="Alert",message="Files were moved!")
-# time.sleep(20)
+    file_ext = os.path.splitext(file)[1].lower()
+
+    dest_folder = None
+    for extensions, folder in extension_mapping.items():
+        if file_ext in extensions:
+            dest_folder = os.path.join(base_dir, folder)
+            break
+
+    if dest_folder:
+        create_folder(dest_folder)
+        dest_path = os.path.join(dest_folder, file)
+        if not os.path.exists(dest_path):
+            shutil.move(file_path, dest_path)
+            print(f"Moved: {file} → {dest_folder}")
+    # Uncomment to move unknowns
+    # else:
+    #     others_folder = os.path.join(base_dir, "Others")
+    #     create_folder(others_folder)
+    #     shutil.move(file_path, os.path.join(others_folder, file))
+
+print("✅ Files have been fully organized.")
 sys.exit()
