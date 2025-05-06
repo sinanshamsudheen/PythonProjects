@@ -1,0 +1,262 @@
+2025-04-20 22:01:33,355 - INFO - Starting Stock Breakout Screener
+2025-04-20 22:01:33,407 - INFO - Database initialized successfully
+2025-04-20 22:01:33,407 - INFO - Starting stock screener at 2025-04-20 22:01:33.407372
+2025-04-20 22:01:33,407 - INFO - 
+Processing 50 symbols from NIFTY50...
+2025-04-20 22:01:33,947 - INFO - Fetching data for ITC
+2025-04-20 22:01:33,990 - INFO - Fetching data for RELIANCE
+2025-04-20 22:01:34,145 - INFO - Fetching data for ICICIBANK
+2025-04-20 22:01:34,271 - INFO - Fetching data for BHARTIARTL
+2025-04-20 22:01:34,418 - INFO - Fetching data for SBIN
+2025-04-20 22:01:34,630 - INFO - Fetching data for TCS
+2025-04-20 22:01:34,847 - INFO - Fetching data for HDFCBANK
+2025-04-20 22:01:35,078 - INFO - Fetching data for KOTAKBANK
+2025-04-20 22:01:35,277 - INFO - Fetching data for HINDUNILVR
+2025-04-20 22:01:35,378 - INFO - Fetching data for INFY
+2025-04-20 22:01:37,888 - INFO - Fetching data for HDFC
+2025-04-20 22:01:37,931 - INFO - Fetching data for WIPRO
+2025-04-20 22:01:38,084 - INFO - Fetching data for AXISBANK
+2025-04-20 22:01:38,561 - INFO - Fetching data for LT
+2025-04-20 22:01:38,752 - INFO - Fetching data for BAJFINANCE
+2025-04-20 22:01:38,803 - INFO - Fetching data for ASIANPAINT
+2025-04-20 22:01:38,807 - INFO - Fetching data for MARUTI
+2025-04-20 22:01:38,953 - INFO - Fetching data for ULTRACEMCO
+2025-04-20 22:01:39,293 - INFO - Fetching data for HCLTECH
+2025-04-20 22:01:41,625 - ERROR - $HDFC.NS: possibly delisted; no timezone found
+2025-04-20 22:01:41,626 - WARNING - No historical data found for HDFC
+2025-04-20 22:01:41,626 - WARNING - Insufficient data for HDFC: got 0 days
+2025-04-20 22:01:42,317 - INFO - Fetching data for TITAN
+2025-04-20 22:01:42,514 - INFO - Fetching data for TECHM
+2025-04-20 22:01:42,697 - INFO - Fetching data for JSWSTEEL
+2025-04-20 22:01:42,899 - INFO - Fetching data for SUNPHARMA
+2025-04-20 22:01:42,979 - INFO - Fetching data for POWERGRID
+2025-04-20 22:01:43,009 - INFO - Fetching data for ADANIPORTS
+2025-04-20 22:01:43,138 - INFO - Fetching data for BAJAJFINSV
+2025-04-20 22:01:43,292 - INFO - Fetching data for TATASTEEL
+2025-04-20 22:01:43,335 - INFO - Fetching data for NTPC
+2025-04-20 22:01:43,542 - INFO - Fetching data for TATAMOTORS
+2025-04-20 22:01:44,177 - INFO - Fetching data for HINDALCO
+2025-04-20 22:01:44,199 - INFO - Fetching data for DRREDDY
+2025-04-20 22:01:44,724 - INFO - Fetching data for DIVISLAB
+2025-04-20 22:01:45,243 - INFO - Fetching data for M&M
+2025-04-20 22:01:45,428 - INFO - Fetching data for CIPLA
+2025-04-20 22:01:45,630 - INFO - Fetching data for INDUSINDBK
+2025-04-20 22:01:45,763 - INFO - Fetching data for HEROMOTOCO
+2025-04-20 22:01:45,950 - INFO - Fetching data for NESTLEIND
+2025-04-20 22:01:46,118 - INFO - Fetching data for GRASIM
+2025-04-20 22:01:46,181 - INFO - Fetching data for COALINDIA
+2025-04-20 22:01:46,694 - INFO - Fetching data for ADANIENT
+2025-04-20 22:01:46,753 - INFO - Fetching data for UPL
+2025-04-20 22:01:47,056 - INFO - Fetching data for BRITANNIA
+2025-04-20 22:01:47,124 - INFO - Fetching data for SHREECEM
+2025-04-20 22:01:47,231 - INFO - Fetching data for TATACONSUM
+2025-04-20 22:01:47,368 - INFO - Fetching data for ONGC
+2025-04-20 22:01:48,099 - INFO - Fetching data for EICHERMOT
+2025-04-20 22:01:48,119 - INFO - Fetching data for HDFCLIFE
+2025-04-20 22:01:48,170 - INFO - Fetching data for BPCL
+2025-04-20 22:01:48,798 - INFO - Fetching data for BAJAJ-AUTO
+2025-04-20 22:01:49,193 - INFO - Fetching data for SBILIFE
+2025-04-20 22:01:50,311 - INFO - Found 4 strong breakouts and 9 potential breakouts in NIFTY50
+2025-04-20 22:01:50,475 - INFO - 
+Processing 49 symbols from MIDCAP_SMALLCAP...
+2025-04-20 22:01:51,028 - INFO - Fetching data for PIDILITIND
+2025-04-20 22:01:51,051 - INFO - Fetching data for APOLLOHOSP
+2025-04-20 22:01:51,096 - INFO - Fetching data for DABUR
+2025-04-20 22:01:51,230 - INFO - Fetching data for MPHASIS
+2025-04-20 22:01:51,278 - INFO - Fetching data for LUPIN
+2025-04-20 22:01:51,322 - INFO - Fetching data for GODREJCP
+2025-04-20 22:01:51,562 - INFO - Fetching data for BERGEPAINT
+2025-04-20 22:01:52,249 - INFO - Fetching data for HAVELLS
+2025-04-20 22:01:52,381 - INFO - Fetching data for NAUKRI
+2025-04-20 22:01:52,390 - INFO - Fetching data for TORNTPHARM
+2025-04-20 22:01:52,483 - INFO - Fetching data for JUBLFOOD
+2025-04-20 22:01:53,064 - INFO - Fetching data for ICICIGI
+2025-04-20 22:01:53,254 - INFO - Fetching data for BIOCON
+2025-04-20 22:01:53,385 - INFO - Fetching data for MINDTREE
+2025-04-20 22:01:53,435 - INFO - Fetching data for PEL
+2025-04-20 22:01:54,046 - INFO - Fetching data for COLPAL
+2025-04-20 22:01:54,148 - INFO - Fetching data for BANDHANBNK
+2025-04-20 22:01:54,347 - INFO - Fetching data for AMBUJACEM
+2025-04-20 22:01:54,433 - INFO - Fetching data for MOTHERSUMI
+2025-04-20 22:01:54,776 - INFO - Fetching data for CADILAHC
+2025-04-20 22:01:55,171 - INFO - Fetching data for BOSCHLTD
+2025-04-20 22:01:56,359 - ERROR - $CADILAHC.NS: possibly delisted; no timezone found
+2025-04-20 22:01:56,360 - WARNING - No historical data found for CADILAHC
+2025-04-20 22:01:56,360 - WARNING - Insufficient data for CADILAHC: got 0 days
+2025-04-20 22:01:56,361 - ERROR - $MOTHERSUMI.NS: possibly delisted; no timezone found
+2025-04-20 22:01:56,362 - WARNING - No historical data found for MOTHERSUMI
+2025-04-20 22:01:56,362 - WARNING - Insufficient data for MOTHERSUMI: got 0 days
+2025-04-20 22:01:56,697 - ERROR - $MINDTREE.NS: possibly delisted; no timezone found
+2025-04-20 22:01:56,698 - WARNING - No historical data found for MINDTREE
+2025-04-20 22:01:56,698 - WARNING - Insufficient data for MINDTREE: got 0 days
+2025-04-20 22:01:57,605 - INFO - Fetching data for BANKBARODA
+2025-04-20 22:01:57,633 - INFO - Fetching data for MCDOWELL-N
+2025-04-20 22:01:57,768 - INFO - Fetching data for SIEMENS
+2025-04-20 22:01:57,802 - INFO - Fetching data for AUROPHARMA
+2025-04-20 22:01:58,063 - INFO - Fetching data for PAGEIND
+2025-04-20 22:01:58,231 - INFO - Fetching data for GAIL
+2025-04-20 22:01:58,335 - INFO - Fetching data for DLF
+2025-04-20 22:01:58,353 - INFO - Fetching data for HDFCAMC
+2025-04-20 22:01:58,453 - INFO - Fetching data for OFSS
+2025-04-20 22:01:58,728 - INFO - Fetching data for ABBOTINDIA
+2025-04-20 22:01:59,817 - ERROR - $MCDOWELL-N.NS: possibly delisted; no timezone found
+2025-04-20 22:01:59,817 - WARNING - No historical data found for MCDOWELL-N
+2025-04-20 22:01:59,817 - WARNING - Insufficient data for MCDOWELL-N: got 0 days
+2025-04-20 22:02:00,376 - INFO - Fetching data for PGHH
+2025-04-20 22:02:00,941 - INFO - Fetching data for ALKEM
+2025-04-20 22:02:01,173 - INFO - Fetching data for IRCTC
+2025-04-20 22:02:01,356 - INFO - Fetching data for SAIL
+2025-04-20 22:02:01,811 - INFO - Fetching data for HONAUT
+2025-04-20 22:02:02,019 - INFO - Fetching data for MRF
+2025-04-20 22:02:02,044 - INFO - Fetching data for BEL
+2025-04-20 22:02:02,081 - INFO - Fetching data for GLAXO
+2025-04-20 22:02:02,461 - INFO - Fetching data for HAL
+2025-04-20 22:02:02,713 - INFO - Fetching data for LALPATHLAB
+2025-04-20 22:02:02,766 - INFO - Fetching data for PNB
+2025-04-20 22:02:02,917 - INFO - Fetching data for HINDPETRO
+2025-04-20 22:02:03,439 - INFO - Fetching data for AFFLE
+2025-04-20 22:02:03,700 - INFO - Fetching data for POLYCAB
+2025-04-20 22:02:03,768 - INFO - Fetching data for NMDC
+2025-04-20 22:02:04,592 - INFO - Fetching data for DIXON
+2025-04-20 22:02:04,809 - INFO - Fetching data for COFORGE
+2025-04-20 22:02:04,973 - INFO - Fetching data for DEEPAKNTR
+2025-04-20 22:02:05,833 - INFO - Found 3 strong breakouts and 5 potential breakouts in MIDCAP_SMALLCAP
+2025-04-20 22:02:05,935 - INFO - Saved 94 records to database
+2025-04-20 22:02:05,936 - INFO - HTML report created: output/strong_breakouts_20250420.html
+2025-04-20 22:02:05,938 - INFO - HTML report created: output/potential_breakouts_20250420.html
+2025-04-20 22:02:05,938 - INFO - 
+Screener completed in 0.54 minutes.
+2025-04-20 22:02:05,938 - INFO - Found 94 total signals.
+2025-04-20 22:02:05,938 - INFO - Found 7 strong breakouts.
+2025-04-20 22:02:05,938 - INFO - Found 14 potential breakouts.
+2025-04-20 22:22:09,896 - INFO - Starting Stock Breakout Screener
+2025-04-20 22:22:09,953 - INFO - Database initialized successfully
+2025-04-20 22:22:09,953 - INFO - Starting stock screener at 2025-04-20 22:22:09.953885
+2025-04-20 22:22:09,953 - INFO - 
+Processing 50 symbols from NIFTY50...
+2025-04-20 22:22:10,521 - INFO - Fetching data for RELIANCE
+2025-04-20 22:22:10,616 - INFO - Fetching data for SBIN
+2025-04-20 22:22:10,908 - INFO - Fetching data for HINDUNILVR
+2025-04-20 22:22:11,134 - INFO - Fetching data for TCS
+2025-04-20 22:22:11,384 - INFO - Fetching data for HDFCBANK
+2025-04-20 22:22:11,431 - INFO - Fetching data for KOTAKBANK
+2025-04-20 22:22:11,493 - INFO - Fetching data for ITC
+2025-04-20 22:22:11,629 - INFO - Fetching data for BHARTIARTL
+2025-04-20 22:22:11,735 - INFO - Fetching data for INFY
+2025-04-20 22:22:11,827 - INFO - Fetching data for ICICIBANK
+2025-04-20 22:22:13,869 - INFO - Fetching data for HDFC
+2025-04-20 22:22:13,926 - INFO - Fetching data for BAJFINANCE
+2025-04-20 22:22:13,960 - INFO - Fetching data for AXISBANK
+2025-04-20 22:22:14,291 - INFO - Fetching data for WIPRO
+2025-04-20 22:22:14,474 - INFO - Fetching data for HCLTECH
+2025-04-20 22:22:14,631 - INFO - Fetching data for LT
+2025-04-20 22:22:14,809 - INFO - Fetching data for ASIANPAINT
+2025-04-20 22:22:15,007 - INFO - Fetching data for MARUTI
+2025-04-20 22:22:15,044 - INFO - Fetching data for ULTRACEMCO
+2025-04-20 22:22:15,060 - INFO - Fetching data for SUNPHARMA
+2025-04-20 22:22:16,880 - ERROR - $HDFC.NS: possibly delisted; no timezone found
+2025-04-20 22:22:16,880 - WARNING - No historical data found for HDFC
+2025-04-20 22:22:16,880 - WARNING - Insufficient data for HDFC: got 0 days
+2025-04-20 22:22:17,660 - INFO - Fetching data for TATASTEEL
+2025-04-20 22:22:17,697 - INFO - Fetching data for BAJAJFINSV
+2025-04-20 22:22:17,748 - INFO - Fetching data for POWERGRID
+2025-04-20 22:22:17,867 - INFO - Fetching data for TATAMOTORS
+2025-04-20 22:22:17,918 - INFO - Fetching data for TECHM
+2025-04-20 22:22:18,023 - INFO - Fetching data for JSWSTEEL
+2025-04-20 22:22:18,159 - INFO - Fetching data for HINDALCO
+2025-04-20 22:22:18,616 - INFO - Fetching data for ADANIPORTS
+2025-04-20 22:22:18,619 - INFO - Fetching data for NTPC
+2025-04-20 22:22:18,717 - INFO - Fetching data for DRREDDY
+2025-04-20 22:22:18,729 - INFO - Fetching data for TITAN
+2025-04-20 22:22:18,903 - INFO - Fetching data for INDUSINDBK
+2025-04-20 22:22:19,306 - INFO - Fetching data for HEROMOTOCO
+2025-04-20 22:22:19,635 - INFO - Fetching data for NESTLEIND
+2025-04-20 22:22:19,784 - INFO - Fetching data for CIPLA
+2025-04-20 22:22:19,787 - INFO - Fetching data for DIVISLAB
+2025-04-20 22:22:19,896 - INFO - Fetching data for BRITANNIA
+2025-04-20 22:22:19,978 - INFO - Fetching data for ADANIENT
+2025-04-20 22:22:20,164 - INFO - Fetching data for GRASIM
+2025-04-20 22:22:20,287 - INFO - Fetching data for COALINDIA
+2025-04-20 22:22:20,313 - INFO - Fetching data for M&M
+2025-04-20 22:22:20,770 - INFO - Fetching data for UPL
+2025-04-20 22:22:20,925 - INFO - Fetching data for EICHERMOT
+2025-04-20 22:22:21,005 - INFO - Fetching data for TATACONSUM
+2025-04-20 22:22:21,015 - INFO - Fetching data for SBILIFE
+2025-04-20 22:22:21,165 - INFO - Fetching data for SHREECEM
+2025-04-20 22:22:21,200 - INFO - Fetching data for ONGC
+2025-04-20 22:22:21,265 - INFO - Fetching data for HDFCLIFE
+2025-04-20 22:22:21,849 - INFO - Fetching data for BAJAJ-AUTO
+2025-04-20 22:22:22,090 - INFO - Fetching data for BPCL
+2025-04-20 22:22:22,503 - INFO - Found 4 strong breakouts and 9 potential breakouts in NIFTY50
+2025-04-20 22:22:22,677 - INFO - 
+Processing 49 symbols from MIDCAP_SMALLCAP...
+2025-04-20 22:22:23,410 - INFO - Fetching data for LUPIN
+2025-04-20 22:22:23,527 - INFO - Fetching data for GODREJCP
+2025-04-20 22:22:23,582 - INFO - Fetching data for TORNTPHARM
+2025-04-20 22:22:23,725 - INFO - Fetching data for NAUKRI
+2025-04-20 22:22:23,842 - INFO - Fetching data for PIDILITIND
+2025-04-20 22:22:23,858 - INFO - Fetching data for APOLLOHOSP
+2025-04-20 22:22:24,111 - INFO - Fetching data for MPHASIS
+2025-04-20 22:22:24,434 - INFO - Fetching data for DABUR
+2025-04-20 22:22:24,638 - INFO - Fetching data for BERGEPAINT
+2025-04-20 22:22:24,654 - INFO - Fetching data for HAVELLS
+2025-04-20 22:22:24,871 - INFO - Fetching data for ICICIGI
+2025-04-20 22:22:25,041 - INFO - Fetching data for BIOCON
+2025-04-20 22:22:25,339 - INFO - Fetching data for PEL
+2025-04-20 22:22:25,424 - INFO - Fetching data for BANDHANBNK
+2025-04-20 22:22:25,465 - INFO - Fetching data for JUBLFOOD
+2025-04-20 22:22:25,585 - INFO - Fetching data for MOTHERSUMI
+2025-04-20 22:22:25,588 - INFO - Fetching data for MINDTREE
+2025-04-20 22:22:25,686 - INFO - Fetching data for AMBUJACEM
+2025-04-20 22:22:25,930 - INFO - Fetching data for CADILAHC
+2025-04-20 22:22:26,281 - INFO - Fetching data for COLPAL
+2025-04-20 22:22:26,924 - ERROR - $MOTHERSUMI.NS: possibly delisted; no timezone found
+2025-04-20 22:22:26,925 - WARNING - No historical data found for MOTHERSUMI
+2025-04-20 22:22:26,925 - WARNING - Insufficient data for MOTHERSUMI: got 0 days
+2025-04-20 22:22:27,021 - INFO - Fetching data for BOSCHLTD
+2025-04-20 22:22:27,479 - INFO - Fetching data for BANKBARODA
+2025-04-20 22:22:28,096 - INFO - Fetching data for SIEMENS
+2025-04-20 22:22:28,143 - INFO - Fetching data for AUROPHARMA
+2025-04-20 22:22:28,207 - ERROR - $CADILAHC.NS: possibly delisted; no timezone found
+2025-04-20 22:22:28,208 - WARNING - No historical data found for CADILAHC
+2025-04-20 22:22:28,208 - WARNING - Insufficient data for CADILAHC: got 0 days
+2025-04-20 22:22:28,313 - ERROR - $MINDTREE.NS: possibly delisted; no timezone found
+2025-04-20 22:22:28,313 - WARNING - No historical data found for MINDTREE
+2025-04-20 22:22:28,313 - WARNING - Insufficient data for MINDTREE: got 0 days
+2025-04-20 22:22:28,689 - INFO - Fetching data for PAGEIND
+2025-04-20 22:22:28,911 - INFO - Fetching data for MCDOWELL-N
+2025-04-20 22:22:28,948 - INFO - Fetching data for GAIL
+2025-04-20 22:22:28,997 - INFO - Fetching data for ABBOTINDIA
+2025-04-20 22:22:29,212 - INFO - Fetching data for ALKEM
+2025-04-20 22:22:29,274 - INFO - Fetching data for OFSS
+2025-04-20 22:22:29,375 - INFO - Fetching data for HDFCAMC
+2025-04-20 22:22:29,734 - INFO - Fetching data for MRF
+2025-04-20 22:22:29,954 - INFO - Fetching data for PGHH
+2025-04-20 22:22:30,037 - INFO - Fetching data for DLF
+2025-04-20 22:22:31,500 - ERROR - $MCDOWELL-N.NS: possibly delisted; no timezone found
+2025-04-20 22:22:31,500 - WARNING - No historical data found for MCDOWELL-N
+2025-04-20 22:22:31,500 - WARNING - Insufficient data for MCDOWELL-N: got 0 days
+2025-04-20 22:22:32,403 - INFO - Fetching data for GLAXO
+2025-04-20 22:22:32,498 - INFO - Fetching data for SAIL
+2025-04-20 22:22:32,505 - INFO - Fetching data for HONAUT
+2025-04-20 22:22:32,685 - INFO - Fetching data for NMDC
+2025-04-20 22:22:32,749 - INFO - Fetching data for BEL
+2025-04-20 22:22:32,863 - INFO - Fetching data for HINDPETRO
+2025-04-20 22:22:32,984 - INFO - Fetching data for LALPATHLAB
+2025-04-20 22:22:33,038 - INFO - Fetching data for HAL
+2025-04-20 22:22:33,080 - INFO - Fetching data for IRCTC
+2025-04-20 22:22:33,491 - INFO - Fetching data for AFFLE
+2025-04-20 22:22:33,520 - INFO - Fetching data for POLYCAB
+2025-04-20 22:22:33,797 - INFO - Fetching data for PNB
+2025-04-20 22:22:33,957 - INFO - Fetching data for COFORGE
+2025-04-20 22:22:34,056 - INFO - Fetching data for DEEPAKNTR
+2025-04-20 22:22:34,686 - INFO - Fetching data for DIXON
+2025-04-20 22:22:35,169 - INFO - Found 3 strong breakouts and 5 potential breakouts in MIDCAP_SMALLCAP
+2025-04-20 22:22:35,284 - INFO - Saved 94 records to database
+2025-04-20 22:22:35,285 - INFO - HTML report created: /home/zero/trading/swing_output/strong_breakouts_20250420.html
+2025-04-20 22:22:35,287 - INFO - HTML report created: /home/zero/trading/swing_output/potential_breakouts_20250420.html
+2025-04-20 22:22:35,287 - INFO - 
+Screener completed in 0.42 minutes.
+2025-04-20 22:22:35,287 - INFO - Found 94 total signals.
+2025-04-20 22:22:35,287 - INFO - Found 7 strong breakouts.
+2025-04-20 22:22:35,287 - INFO - Found 14 potential breakouts.
