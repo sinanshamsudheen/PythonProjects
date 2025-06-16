@@ -887,3 +887,650 @@
 2025-04-21 00:49:15,841 - INFO - Saved 42 intraday setups to database
 2025-04-21 00:49:16,158 - ERROR - Error getting market data: single positional indexer is out-of-bounds
 2025-04-21 00:49:16,159 - INFO - Generated report saved to /home/zero/trading/intraday_output/intraday_setups_20250422.html
+2025-05-06 22:49:55,639 - INFO - Intraday database initialized successfully
+2025-05-06 22:49:55,640 - INFO - Starting intraday screener
+2025-05-06 22:49:55,641 - INFO - Processing RELIANCE for intraday setups
+2025-05-06 22:49:55,642 - INFO - Processing TCS for intraday setups
+2025-05-06 22:49:55,642 - INFO - Processing HDFCBANK for intraday setups
+2025-05-06 22:49:55,643 - INFO - Processing INFY for intraday setups
+2025-05-06 22:49:55,643 - INFO - Processing HINDUNILVR for intraday setups
+2025-05-06 22:49:55,644 - INFO - Processing ICICIBANK for intraday setups
+2025-05-06 22:49:55,644 - INFO - Processing SBIN for intraday setups
+2025-05-06 22:49:55,644 - INFO - Processing BHARTIARTL for intraday setups
+2025-05-06 22:49:55,645 - INFO - Processing KOTAKBANK for intraday setups
+2025-05-06 22:49:55,645 - INFO - Processing ITC for intraday setups
+2025-05-06 22:49:56,019 - ERROR - Failed to get ticker 'HDFCBANK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,019 - ERROR - Failed to get ticker 'ICICIBANK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,020 - ERROR - Failed to get ticker 'ITC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,020 - ERROR - Failed to get ticker 'RELIANCE.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,022 - ERROR - Failed to get ticker 'BHARTIARTL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,022 - ERROR - Failed to get ticker 'KOTAKBANK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,023 - ERROR - Failed to get ticker 'TCS.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,024 - ERROR - Failed to get ticker 'INFY.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,027 - ERROR - Failed to get ticker 'HINDUNILVR.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,030 - ERROR - Failed to get ticker 'SBIN.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,207 - ERROR - HDFCBANK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:56,208 - INFO - Processing HDFC for intraday setups
+2025-05-06 22:49:56,212 - ERROR - ICICIBANK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:56,213 - INFO - Processing LT for intraday setups
+2025-05-06 22:49:56,235 - ERROR - RELIANCE.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:56,237 - INFO - Processing AXISBANK for intraday setups
+2025-05-06 22:49:56,257 - ERROR - TCS.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:56,258 - ERROR - HINDUNILVR.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:56,259 - INFO - Processing ASIANPAINT for intraday setups
+2025-05-06 22:49:56,260 - INFO - Processing MARUTI for intraday setups
+2025-05-06 22:49:56,512 - ERROR - SBIN.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:56,512 - ERROR - INFY.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:56,514 - INFO - Processing BAJFINANCE for intraday setups
+2025-05-06 22:49:56,516 - INFO - Processing WIPRO for intraday setups
+2025-05-06 22:49:56,518 - ERROR - ITC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:56,521 - ERROR - BHARTIARTL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:56,523 - INFO - Processing HCLTECH for intraday setups
+2025-05-06 22:49:56,524 - INFO - Processing TITAN for intraday setups
+2025-05-06 22:49:56,537 - ERROR - KOTAKBANK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:56,537 - INFO - Processing SUNPHARMA for intraday setups
+2025-05-06 22:49:56,624 - ERROR - Failed to get ticker 'HCLTECH.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,633 - ERROR - Failed to get ticker 'SUNPHARMA.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,726 - ERROR - SUNPHARMA.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:56,727 - INFO - Processing TATASTEEL for intraday setups
+2025-05-06 22:49:56,832 - ERROR - Failed to get ticker 'TATASTEEL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:56,950 - ERROR - TATASTEEL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:56,951 - INFO - Processing INDIGO for intraday setups
+2025-05-06 22:49:57,052 - ERROR - Failed to get ticker 'INDIGO.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,329 - ERROR - Failed to get ticker 'LT.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,329 - ERROR - Failed to get ticker 'HDFC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,408 - ERROR - Failed to get ticker 'AXISBANK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,408 - ERROR - Failed to get ticker 'ASIANPAINT.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,411 - ERROR - Failed to get ticker 'MARUTI.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,439 - ERROR - HDFC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,441 - INFO - Processing BIOCON for intraday setups
+2025-05-06 22:49:57,442 - ERROR - LT.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,444 - INFO - Processing APOLLOHOSP for intraday setups
+2025-05-06 22:49:57,523 - ERROR - AXISBANK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,525 - INFO - Processing AUROPHARMA for intraday setups
+2025-05-06 22:49:57,527 - ERROR - MARUTI.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,529 - INFO - Processing HDFCAMC for intraday setups
+2025-05-06 22:49:57,532 - ERROR - ASIANPAINT.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,534 - INFO - Processing MPHASIS for intraday setups
+2025-05-06 22:49:57,560 - ERROR - Failed to get ticker 'BIOCON.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,563 - ERROR - Failed to get ticker 'APOLLOHOSP.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,709 - ERROR - Failed to get ticker 'AUROPHARMA.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,739 - ERROR - Failed to get ticker 'HDFCAMC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,740 - ERROR - Failed to get ticker 'BAJFINANCE.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,741 - ERROR - Failed to get ticker 'TITAN.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,741 - ERROR - Failed to get ticker 'WIPRO.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,742 - ERROR - Failed to get ticker 'MPHASIS.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,748 - ERROR - BIOCON.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,749 - INFO - Processing PIIND for intraday setups
+2025-05-06 22:49:57,750 - ERROR - APOLLOHOSP.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,751 - INFO - Processing HAVELLS for intraday setups
+2025-05-06 22:49:57,772 - ERROR - HCLTECH.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,774 - INFO - Processing BERGEPAINT for intraday setups
+2025-05-06 22:49:57,815 - ERROR - AUROPHARMA.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,816 - INFO - Processing TORNTPHARM for intraday setups
+2025-05-06 22:49:57,925 - ERROR - HDFCAMC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,926 - INFO - Processing PEL for intraday setups
+2025-05-06 22:49:57,944 - ERROR - WIPRO.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,945 - INFO - Processing TATAPOWER for intraday setups
+2025-05-06 22:49:57,952 - ERROR - TITAN.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,953 - INFO - Processing DABUR for intraday setups
+2025-05-06 22:49:57,957 - ERROR - MPHASIS.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,958 - INFO - Processing MUTHOOTFIN for intraday setups
+2025-05-06 22:49:57,961 - ERROR - BAJFINANCE.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:57,963 - INFO - Processing LUPIN for intraday setups
+2025-05-06 22:49:57,967 - ERROR - Failed to get ticker 'PIIND.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,968 - ERROR - Failed to get ticker 'HAVELLS.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,975 - ERROR - Failed to get ticker 'BERGEPAINT.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:57,977 - ERROR - Failed to get ticker 'TORNTPHARM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,038 - ERROR - Failed to get ticker 'PEL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,066 - ERROR - Failed to get ticker 'TATAPOWER.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,109 - ERROR - Failed to get ticker 'DABUR.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,125 - ERROR - Failed to get ticker 'MUTHOOTFIN.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,133 - ERROR - Failed to get ticker 'LUPIN.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,174 - ERROR - HAVELLS.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,175 - INFO - Processing BANDHANBNK for intraday setups
+2025-05-06 22:49:58,179 - ERROR - TORNTPHARM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,180 - ERROR - PIIND.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,181 - INFO - Processing GODREJCP for intraday setups
+2025-05-06 22:49:58,182 - ERROR - BERGEPAINT.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,183 - INFO - Processing AMBUJACEM for intraday setups
+2025-05-06 22:49:58,186 - INFO - Processing CADILAHC for intraday setups
+2025-05-06 22:49:58,213 - ERROR - PEL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,214 - INFO - Processing BOSCHLTD for intraday setups
+2025-05-06 22:49:58,217 - ERROR - TATAPOWER.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,218 - INFO - Processing SIEMENS for intraday setups
+2025-05-06 22:49:58,244 - ERROR - DABUR.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,245 - INFO - Processing IRCTC for intraday setups
+2025-05-06 22:49:58,248 - ERROR - MUTHOOTFIN.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,249 - INFO - Processing CHAMBLFERT for intraday setups
+2025-05-06 22:49:58,250 - ERROR - LUPIN.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,252 - INFO - Processing GRANULES for intraday setups
+2025-05-06 22:49:58,288 - ERROR - Failed to get ticker 'BANDHANBNK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,325 - ERROR - Failed to get ticker 'GODREJCP.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,326 - ERROR - Failed to get ticker 'CADILAHC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,328 - ERROR - Failed to get ticker 'AMBUJACEM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,372 - ERROR - Failed to get ticker 'BOSCHLTD.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,375 - ERROR - Failed to get ticker 'SIEMENS.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,398 - ERROR - Failed to get ticker 'CHAMBLFERT.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,398 - ERROR - Failed to get ticker 'IRCTC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,401 - ERROR - Failed to get ticker 'GRANULES.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,422 - ERROR - BANDHANBNK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,424 - INFO - Processing CANBK for intraday setups
+2025-05-06 22:49:58,475 - ERROR - CADILAHC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,476 - INFO - Processing NATIONALUM for intraday setups
+2025-05-06 22:49:58,478 - ERROR - AMBUJACEM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,480 - INFO - Processing SAIL for intraday setups
+2025-05-06 22:49:58,483 - ERROR - GODREJCP.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,484 - INFO - Processing PNB for intraday setups
+2025-05-06 22:49:58,576 - ERROR - SIEMENS.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,577 - ERROR - CHAMBLFERT.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,578 - INFO - Processing RVNL for intraday setups
+2025-05-06 22:49:58,579 - ERROR - IRCTC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,580 - INFO - Processing CEATLTD for intraday setups
+2025-05-06 22:49:58,581 - ERROR - BOSCHLTD.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,584 - INFO - Processing HINDCOPPER for intraday setups
+2025-05-06 22:49:58,586 - INFO - Processing GMRINFRA for intraday setups
+2025-05-06 22:49:58,600 - ERROR - GRANULES.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,601 - INFO - Processing BANKBARODA for intraday setups
+2025-05-06 22:49:58,605 - ERROR - Failed to get ticker 'CANBK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,638 - ERROR - Failed to get ticker 'PNB.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,640 - ERROR - Failed to get ticker 'SAIL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,735 - ERROR - Failed to get ticker 'NATIONALUM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,746 - ERROR - Failed to get ticker 'RVNL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,747 - ERROR - Failed to get ticker 'GMRINFRA.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,770 - ERROR - Failed to get ticker 'CEATLTD.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,770 - ERROR - Failed to get ticker 'HINDCOPPER.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,786 - ERROR - Failed to get ticker 'BANKBARODA.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:58,799 - ERROR - CANBK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,802 - INFO - Processing FEDERALBNK for intraday setups
+2025-05-06 22:49:58,808 - ERROR - SAIL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,811 - INFO - Processing ASHOKLEY for intraday setups
+2025-05-06 22:49:58,812 - ERROR - PNB.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,815 - INFO - Processing ABFRL for intraday setups
+2025-05-06 22:49:58,856 - ERROR - NATIONALUM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,858 - INFO - Processing TATACHEM for intraday setups
+2025-05-06 22:49:58,877 - ERROR - GMRINFRA.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,877 - ERROR - RVNL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,879 - INFO - Processing ADANIPOWER for intraday setups
+2025-05-06 22:49:58,881 - INFO - Processing MANAPPURAM for intraday setups
+2025-05-06 22:49:58,939 - ERROR - CEATLTD.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,941 - INFO - Processing NMDC for intraday setups
+2025-05-06 22:49:58,968 - ERROR - HINDCOPPER.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,973 - INFO - Processing IDFC for intraday setups
+2025-05-06 22:49:58,981 - ERROR - BANKBARODA.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:58,985 - INFO - Processing EXIDEIND for intraday setups
+2025-05-06 22:49:58,999 - ERROR - Failed to get ticker 'FEDERALBNK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:59,010 - ERROR - Failed to get ticker 'ABFRL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:59,014 - ERROR - Failed to get ticker 'ASHOKLEY.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:59,040 - ERROR - Failed to get ticker 'TATACHEM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:59,067 - ERROR - Failed to get ticker 'MANAPPURAM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:59,088 - ERROR - Failed to get ticker 'ADANIPOWER.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:59,121 - ERROR - Failed to get ticker 'NMDC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:59,171 - ERROR - Failed to get ticker 'EXIDEIND.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:59,174 - ERROR - Failed to get ticker 'IDFC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:59,177 - ERROR - FEDERALBNK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:59,179 - INFO - Processing JINDALSAW for intraday setups
+2025-05-06 22:49:59,198 - ERROR - ABFRL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:59,205 - ERROR - ASHOKLEY.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:59,218 - ERROR - TATACHEM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:59,239 - ERROR - MANAPPURAM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:59,242 - ERROR - ADANIPOWER.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:59,265 - ERROR - NMDC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:59,328 - ERROR - IDFC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:59,329 - ERROR - Failed to get ticker 'JINDALSAW.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:49:59,331 - ERROR - EXIDEIND.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:49:59,428 - ERROR - JINDALSAW.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:01,796 - ERROR - INDIGO.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:05,296 - INFO - Intraday database initialized successfully
+2025-05-06 22:50:05,296 - INFO - Starting intraday screener
+2025-05-06 22:50:05,296 - INFO - Today is Tuesday. Analyzing today's data for tomorrow's trading.
+2025-05-06 22:50:05,296 - INFO - Processing RELIANCE for intraday setups
+2025-05-06 22:50:05,297 - INFO - Processing TCS for intraday setups
+2025-05-06 22:50:05,297 - INFO - Processing HDFCBANK for intraday setups
+2025-05-06 22:50:05,297 - INFO - Processing INFY for intraday setups
+2025-05-06 22:50:05,298 - INFO - Processing HINDUNILVR for intraday setups
+2025-05-06 22:50:05,298 - INFO - Processing ICICIBANK for intraday setups
+2025-05-06 22:50:05,298 - INFO - Processing SBIN for intraday setups
+2025-05-06 22:50:05,299 - INFO - Processing BHARTIARTL for intraday setups
+2025-05-06 22:50:05,299 - INFO - Processing KOTAKBANK for intraday setups
+2025-05-06 22:50:05,301 - INFO - Processing ITC for intraday setups
+2025-05-06 22:50:05,510 - ERROR - Failed to get ticker 'BHARTIARTL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,536 - ERROR - Failed to get ticker 'KOTAKBANK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,537 - ERROR - Failed to get ticker 'ICICIBANK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,538 - ERROR - Failed to get ticker 'HDFCBANK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,540 - ERROR - Failed to get ticker 'RELIANCE.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,541 - ERROR - Failed to get ticker 'SBIN.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,541 - ERROR - Failed to get ticker 'HINDUNILVR.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,543 - ERROR - Failed to get ticker 'INFY.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,544 - ERROR - Failed to get ticker 'TCS.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,547 - ERROR - Failed to get ticker 'ITC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,626 - ERROR - BHARTIARTL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:05,628 - WARNING - No data returned for BHARTIARTL
+2025-05-06 22:50:05,629 - INFO - Processing HDFC for intraday setups
+2025-05-06 22:50:05,727 - ERROR - KOTAKBANK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:05,728 - WARNING - No data returned for KOTAKBANK
+2025-05-06 22:50:05,729 - INFO - Processing LT for intraday setups
+2025-05-06 22:50:05,759 - ERROR - HDFCBANK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:05,761 - WARNING - No data returned for HDFCBANK
+2025-05-06 22:50:05,762 - INFO - Processing AXISBANK for intraday setups
+2025-05-06 22:50:05,765 - ERROR - ICICIBANK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:05,766 - WARNING - No data returned for ICICIBANK
+2025-05-06 22:50:05,767 - ERROR - HINDUNILVR.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:05,767 - INFO - Processing ASIANPAINT for intraday setups
+2025-05-06 22:50:05,768 - WARNING - No data returned for HINDUNILVR
+2025-05-06 22:50:05,769 - INFO - Processing MARUTI for intraday setups
+2025-05-06 22:50:05,773 - ERROR - RELIANCE.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:05,775 - WARNING - No data returned for RELIANCE
+2025-05-06 22:50:05,775 - ERROR - ITC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:05,776 - INFO - Processing BAJFINANCE for intraday setups
+2025-05-06 22:50:05,777 - WARNING - No data returned for ITC
+2025-05-06 22:50:05,782 - ERROR - TCS.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:05,782 - INFO - Processing WIPRO for intraday setups
+2025-05-06 22:50:05,783 - ERROR - SBIN.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:05,783 - ERROR - INFY.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:05,784 - WARNING - No data returned for TCS
+2025-05-06 22:50:05,785 - WARNING - No data returned for SBIN
+2025-05-06 22:50:05,786 - WARNING - No data returned for INFY
+2025-05-06 22:50:05,789 - INFO - Processing HCLTECH for intraday setups
+2025-05-06 22:50:05,791 - INFO - Processing TITAN for intraday setups
+2025-05-06 22:50:05,792 - ERROR - Failed to get ticker 'HDFC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,793 - INFO - Processing SUNPHARMA for intraday setups
+2025-05-06 22:50:05,842 - ERROR - Failed to get ticker 'LT.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,888 - ERROR - Failed to get ticker 'AXISBANK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,925 - ERROR - Failed to get ticker 'ASIANPAINT.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:05,930 - ERROR - Failed to get ticker 'MARUTI.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,010 - ERROR - Failed to get ticker 'BAJFINANCE.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,010 - ERROR - HDFC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,012 - WARNING - No data returned for HDFC
+2025-05-06 22:50:06,014 - ERROR - Failed to get ticker 'HCLTECH.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,014 - ERROR - Failed to get ticker 'WIPRO.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,015 - INFO - Processing TATASTEEL for intraday setups
+2025-05-06 22:50:06,016 - ERROR - Failed to get ticker 'SUNPHARMA.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,017 - ERROR - Failed to get ticker 'TITAN.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,043 - ERROR - LT.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,044 - WARNING - No data returned for LT
+2025-05-06 22:50:06,044 - INFO - Processing INDIGO for intraday setups
+2025-05-06 22:50:06,057 - ERROR - AXISBANK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,059 - WARNING - No data returned for AXISBANK
+2025-05-06 22:50:06,060 - INFO - Processing BIOCON for intraday setups
+2025-05-06 22:50:06,067 - ERROR - MARUTI.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,068 - WARNING - No data returned for MARUTI
+2025-05-06 22:50:06,069 - INFO - Processing APOLLOHOSP for intraday setups
+2025-05-06 22:50:06,069 - ERROR - ASIANPAINT.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,072 - WARNING - No data returned for ASIANPAINT
+2025-05-06 22:50:06,073 - INFO - Processing AUROPHARMA for intraday setups
+2025-05-06 22:50:06,185 - ERROR - WIPRO.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,187 - WARNING - No data returned for WIPRO
+2025-05-06 22:50:06,187 - INFO - Processing HDFCAMC for intraday setups
+2025-05-06 22:50:06,193 - ERROR - HCLTECH.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,195 - WARNING - No data returned for HCLTECH
+2025-05-06 22:50:06,195 - INFO - Processing MPHASIS for intraday setups
+2025-05-06 22:50:06,199 - ERROR - BAJFINANCE.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,200 - WARNING - No data returned for BAJFINANCE
+2025-05-06 22:50:06,200 - INFO - Processing PIIND for intraday setups
+2025-05-06 22:50:06,248 - ERROR - Failed to get ticker 'TATASTEEL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,251 - ERROR - SUNPHARMA.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,253 - WARNING - No data returned for SUNPHARMA
+2025-05-06 22:50:06,255 - ERROR - TITAN.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,255 - ERROR - Failed to get ticker 'BIOCON.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,255 - INFO - Processing HAVELLS for intraday setups
+2025-05-06 22:50:06,258 - WARNING - No data returned for TITAN
+2025-05-06 22:50:06,260 - ERROR - Failed to get ticker 'INDIGO.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,261 - INFO - Processing BERGEPAINT for intraday setups
+2025-05-06 22:50:06,262 - ERROR - Failed to get ticker 'APOLLOHOSP.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,266 - ERROR - Failed to get ticker 'AUROPHARMA.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,290 - ERROR - Failed to get ticker 'HDFCAMC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,300 - ERROR - Failed to get ticker 'MPHASIS.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,318 - ERROR - Failed to get ticker 'PIIND.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,408 - ERROR - TATASTEEL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,409 - WARNING - No data returned for TATASTEEL
+2025-05-06 22:50:06,409 - INFO - Processing TORNTPHARM for intraday setups
+2025-05-06 22:50:06,458 - ERROR - Failed to get ticker 'BERGEPAINT.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,465 - ERROR - AUROPHARMA.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,466 - WARNING - No data returned for AUROPHARMA
+2025-05-06 22:50:06,466 - INFO - Processing PEL for intraday setups
+2025-05-06 22:50:06,468 - ERROR - APOLLOHOSP.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,469 - WARNING - No data returned for APOLLOHOSP
+2025-05-06 22:50:06,470 - INFO - Processing TATAPOWER for intraday setups
+2025-05-06 22:50:06,488 - ERROR - BIOCON.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,489 - ERROR - Failed to get ticker 'HAVELLS.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,490 - WARNING - No data returned for BIOCON
+2025-05-06 22:50:06,492 - INFO - Processing DABUR for intraday setups
+2025-05-06 22:50:06,493 - ERROR - INDIGO.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,497 - WARNING - No data returned for INDIGO
+2025-05-06 22:50:06,497 - INFO - Processing MUTHOOTFIN for intraday setups
+2025-05-06 22:50:06,511 - ERROR - MPHASIS.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,512 - WARNING - No data returned for MPHASIS
+2025-05-06 22:50:06,512 - INFO - Processing LUPIN for intraday setups
+2025-05-06 22:50:06,514 - ERROR - PIIND.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,516 - WARNING - No data returned for PIIND
+2025-05-06 22:50:06,518 - INFO - Processing BANDHANBNK for intraday setups
+2025-05-06 22:50:06,518 - ERROR - HDFCAMC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,519 - WARNING - No data returned for HDFCAMC
+2025-05-06 22:50:06,521 - INFO - Processing GODREJCP for intraday setups
+2025-05-06 22:50:06,525 - ERROR - Failed to get ticker 'TORNTPHARM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,586 - ERROR - BERGEPAINT.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,588 - WARNING - No data returned for BERGEPAINT
+2025-05-06 22:50:06,588 - INFO - Processing AMBUJACEM for intraday setups
+2025-05-06 22:50:06,600 - ERROR - Failed to get ticker 'PEL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,600 - ERROR - Failed to get ticker 'TATAPOWER.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,690 - ERROR - Failed to get ticker 'DABUR.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,691 - ERROR - HAVELLS.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,691 - ERROR - Failed to get ticker 'MUTHOOTFIN.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,693 - WARNING - No data returned for HAVELLS
+2025-05-06 22:50:06,694 - INFO - Processing CADILAHC for intraday setups
+2025-05-06 22:50:06,702 - ERROR - Failed to get ticker 'LUPIN.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,723 - ERROR - TORNTPHARM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,724 - WARNING - No data returned for TORNTPHARM
+2025-05-06 22:50:06,725 - INFO - Processing BOSCHLTD for intraday setups
+2025-05-06 22:50:06,728 - ERROR - Failed to get ticker 'GODREJCP.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,740 - ERROR - Failed to get ticker 'BANDHANBNK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,753 - ERROR - PEL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,754 - ERROR - TATAPOWER.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,754 - ERROR - Failed to get ticker 'AMBUJACEM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,755 - WARNING - No data returned for PEL
+2025-05-06 22:50:06,757 - WARNING - No data returned for TATAPOWER
+2025-05-06 22:50:06,759 - INFO - Processing SIEMENS for intraday setups
+2025-05-06 22:50:06,760 - INFO - Processing IRCTC for intraday setups
+2025-05-06 22:50:06,819 - ERROR - DABUR.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,822 - WARNING - No data returned for DABUR
+2025-05-06 22:50:06,822 - INFO - Processing CHAMBLFERT for intraday setups
+2025-05-06 22:50:06,878 - ERROR - LUPIN.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,879 - WARNING - No data returned for LUPIN
+2025-05-06 22:50:06,880 - ERROR - MUTHOOTFIN.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,880 - INFO - Processing GRANULES for intraday setups
+2025-05-06 22:50:06,882 - WARNING - No data returned for MUTHOOTFIN
+2025-05-06 22:50:06,882 - ERROR - Failed to get ticker 'CADILAHC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,882 - INFO - Processing CANBK for intraday setups
+2025-05-06 22:50:06,931 - ERROR - GODREJCP.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,932 - WARNING - No data returned for GODREJCP
+2025-05-06 22:50:06,933 - INFO - Processing NATIONALUM for intraday setups
+2025-05-06 22:50:06,934 - ERROR - Failed to get ticker 'BOSCHLTD.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,938 - ERROR - BANDHANBNK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,939 - WARNING - No data returned for BANDHANBNK
+2025-05-06 22:50:06,939 - INFO - Processing SAIL for intraday setups
+2025-05-06 22:50:06,960 - ERROR - Failed to get ticker 'IRCTC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,961 - ERROR - AMBUJACEM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:06,962 - ERROR - Failed to get ticker 'SIEMENS.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,962 - ERROR - Failed to get ticker 'CHAMBLFERT.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:06,964 - WARNING - No data returned for AMBUJACEM
+2025-05-06 22:50:06,967 - INFO - Processing PNB for intraday setups
+2025-05-06 22:50:07,008 - ERROR - Failed to get ticker 'GRANULES.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,009 - ERROR - Failed to get ticker 'CANBK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,009 - ERROR - CADILAHC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,012 - WARNING - No data returned for CADILAHC
+2025-05-06 22:50:07,012 - INFO - Processing RVNL for intraday setups
+2025-05-06 22:50:07,038 - ERROR - Failed to get ticker 'NATIONALUM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,063 - ERROR - BOSCHLTD.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,064 - WARNING - No data returned for BOSCHLTD
+2025-05-06 22:50:07,064 - INFO - Processing CEATLTD for intraday setups
+2025-05-06 22:50:07,083 - ERROR - Failed to get ticker 'SAIL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,154 - ERROR - IRCTC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,155 - WARNING - No data returned for IRCTC
+2025-05-06 22:50:07,155 - INFO - Processing HINDCOPPER for intraday setups
+2025-05-06 22:50:07,158 - ERROR - SIEMENS.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,159 - ERROR - CHAMBLFERT.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,160 - WARNING - No data returned for SIEMENS
+2025-05-06 22:50:07,161 - WARNING - No data returned for CHAMBLFERT
+2025-05-06 22:50:07,161 - INFO - Processing GMRINFRA for intraday setups
+2025-05-06 22:50:07,161 - INFO - Processing BANKBARODA for intraday setups
+2025-05-06 22:50:07,166 - ERROR - Failed to get ticker 'PNB.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,189 - ERROR - GRANULES.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,190 - WARNING - No data returned for GRANULES
+2025-05-06 22:50:07,191 - INFO - Processing FEDERALBNK for intraday setups
+2025-05-06 22:50:07,218 - ERROR - CANBK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,220 - ERROR - Failed to get ticker 'RVNL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,221 - ERROR - SAIL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,223 - WARNING - No data returned for SAIL
+2025-05-06 22:50:07,224 - ERROR - NATIONALUM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,226 - WARNING - No data returned for CANBK
+2025-05-06 22:50:07,226 - ERROR - Failed to get ticker 'CEATLTD.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,226 - INFO - Processing ASHOKLEY for intraday setups
+2025-05-06 22:50:07,228 - WARNING - No data returned for NATIONALUM
+2025-05-06 22:50:07,229 - INFO - Processing ABFRL for intraday setups
+2025-05-06 22:50:07,230 - INFO - Processing TATACHEM for intraday setups
+2025-05-06 22:50:07,270 - ERROR - Failed to get ticker 'HINDCOPPER.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,281 - ERROR - Failed to get ticker 'GMRINFRA.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,282 - ERROR - Failed to get ticker 'BANKBARODA.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,292 - ERROR - PNB.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,293 - WARNING - No data returned for PNB
+2025-05-06 22:50:07,293 - INFO - Processing ADANIPOWER for intraday setups
+2025-05-06 22:50:07,296 - ERROR - Failed to get ticker 'FEDERALBNK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,396 - ERROR - RVNL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,398 - WARNING - No data returned for RVNL
+2025-05-06 22:50:07,398 - INFO - Processing MANAPPURAM for intraday setups
+2025-05-06 22:50:07,419 - ERROR - Failed to get ticker 'TATACHEM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,421 - ERROR - CEATLTD.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,423 - WARNING - No data returned for CEATLTD
+2025-05-06 22:50:07,423 - INFO - Processing NMDC for intraday setups
+2025-05-06 22:50:07,424 - ERROR - Failed to get ticker 'ASHOKLEY.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,428 - ERROR - Failed to get ticker 'ABFRL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,472 - ERROR - GMRINFRA.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,473 - WARNING - No data returned for GMRINFRA
+2025-05-06 22:50:07,474 - ERROR - Failed to get ticker 'ADANIPOWER.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,475 - INFO - Processing IDFC for intraday setups
+2025-05-06 22:50:07,476 - ERROR - HINDCOPPER.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,476 - ERROR - FEDERALBNK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,478 - ERROR - BANKBARODA.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,481 - WARNING - No data returned for FEDERALBNK
+2025-05-06 22:50:07,482 - WARNING - No data returned for HINDCOPPER
+2025-05-06 22:50:07,484 - WARNING - No data returned for BANKBARODA
+2025-05-06 22:50:07,485 - INFO - Processing EXIDEIND for intraday setups
+2025-05-06 22:50:07,485 - INFO - Processing JINDALSAW for intraday setups
+2025-05-06 22:50:07,494 - ERROR - Failed to get ticker 'MANAPPURAM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,548 - ERROR - Failed to get ticker 'NMDC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,555 - ERROR - ABFRL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,556 - ERROR - TATACHEM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,556 - ERROR - ASHOKLEY.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,558 - WARNING - No data returned for ABFRL
+2025-05-06 22:50:07,559 - WARNING - No data returned for TATACHEM
+2025-05-06 22:50:07,561 - WARNING - No data returned for ASHOKLEY
+2025-05-06 22:50:07,594 - ERROR - ADANIPOWER.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,595 - WARNING - No data returned for ADANIPOWER
+2025-05-06 22:50:07,610 - ERROR - Failed to get ticker 'JINDALSAW.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,621 - ERROR - Failed to get ticker 'IDFC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,623 - ERROR - Failed to get ticker 'EXIDEIND.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-06 22:50:07,624 - ERROR - MANAPPURAM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,625 - WARNING - No data returned for MANAPPURAM
+2025-05-06 22:50:07,644 - ERROR - NMDC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,645 - WARNING - No data returned for NMDC
+2025-05-06 22:50:07,711 - ERROR - JINDALSAW.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,712 - WARNING - No data returned for JINDALSAW
+2025-05-06 22:50:07,728 - ERROR - EXIDEIND.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,728 - ERROR - IDFC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-06 22:50:07,730 - WARNING - No data returned for EXIDEIND
+2025-05-06 22:50:07,731 - WARNING - No data returned for IDFC
+2025-05-08 08:44:41,759 - INFO - Intraday database initialized successfully
+2025-05-08 08:44:41,760 - INFO - Starting intraday screener
+2025-05-08 08:44:41,761 - INFO - Processing RELIANCE for intraday setups
+2025-05-08 08:44:41,762 - INFO - Processing TCS for intraday setups
+2025-05-08 08:44:41,762 - INFO - Processing HDFCBANK for intraday setups
+2025-05-08 08:44:41,763 - INFO - Processing INFY for intraday setups
+2025-05-08 08:44:41,763 - INFO - Processing HINDUNILVR for intraday setups
+2025-05-08 08:44:41,763 - INFO - Processing ICICIBANK for intraday setups
+2025-05-08 08:44:41,764 - INFO - Processing SBIN for intraday setups
+2025-05-08 08:44:41,764 - INFO - Processing BHARTIARTL for intraday setups
+2025-05-08 08:44:41,764 - INFO - Processing KOTAKBANK for intraday setups
+2025-05-08 08:44:41,764 - INFO - Processing ITC for intraday setups
+2025-05-08 08:44:42,049 - ERROR - Failed to get ticker 'TCS.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,053 - ERROR - Failed to get ticker 'BHARTIARTL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,054 - ERROR - Failed to get ticker 'SBIN.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,119 - ERROR - Failed to get ticker 'INFY.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,124 - ERROR - Failed to get ticker 'HDFCBANK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,124 - ERROR - Failed to get ticker 'RELIANCE.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,125 - ERROR - Failed to get ticker 'ITC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,129 - ERROR - Failed to get ticker 'KOTAKBANK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,130 - ERROR - Failed to get ticker 'ICICIBANK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,131 - ERROR - Failed to get ticker 'HINDUNILVR.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,269 - ERROR - SBIN.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,271 - INFO - Processing HDFC for intraday setups
+2025-05-08 08:44:42,273 - ERROR - TCS.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,274 - ERROR - BHARTIARTL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,276 - INFO - Processing LT for intraday setups
+2025-05-08 08:44:42,278 - INFO - Processing AXISBANK for intraday setups
+2025-05-08 08:44:42,309 - ERROR - INFY.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,310 - INFO - Processing ASIANPAINT for intraday setups
+2025-05-08 08:44:42,328 - ERROR - HDFCBANK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,330 - INFO - Processing MARUTI for intraday setups
+2025-05-08 08:44:42,349 - ERROR - ICICIBANK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,350 - INFO - Processing BAJFINANCE for intraday setups
+2025-05-08 08:44:42,352 - ERROR - ITC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,353 - INFO - Processing WIPRO for intraday setups
+2025-05-08 08:44:42,384 - ERROR - KOTAKBANK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,385 - ERROR - HINDUNILVR.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,386 - ERROR - RELIANCE.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,387 - INFO - Processing HCLTECH for intraday setups
+2025-05-08 08:44:42,389 - INFO - Processing TITAN for intraday setups
+2025-05-08 08:44:42,391 - INFO - Processing SUNPHARMA for intraday setups
+2025-05-08 08:44:42,434 - ERROR - Failed to get ticker 'ASIANPAINT.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,436 - ERROR - Failed to get ticker 'HDFC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,436 - ERROR - Failed to get ticker 'AXISBANK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,438 - ERROR - Failed to get ticker 'LT.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,458 - ERROR - Failed to get ticker 'MARUTI.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,481 - ERROR - Failed to get ticker 'BAJFINANCE.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,488 - ERROR - Failed to get ticker 'WIPRO.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,543 - ERROR - Failed to get ticker 'HCLTECH.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,593 - ERROR - Failed to get ticker 'SUNPHARMA.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,594 - ERROR - Failed to get ticker 'TITAN.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,621 - ERROR - ASIANPAINT.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,624 - INFO - Processing TATASTEEL for intraday setups
+2025-05-08 08:44:42,647 - ERROR - HDFC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,648 - INFO - Processing INDIGO for intraday setups
+2025-05-08 08:44:42,650 - ERROR - LT.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,652 - INFO - Processing BIOCON for intraday setups
+2025-05-08 08:44:42,652 - ERROR - MARUTI.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,654 - INFO - Processing APOLLOHOSP for intraday setups
+2025-05-08 08:44:42,658 - ERROR - AXISBANK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,660 - INFO - Processing AUROPHARMA for intraday setups
+2025-05-08 08:44:42,669 - ERROR - BAJFINANCE.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,670 - INFO - Processing HDFCAMC for intraday setups
+2025-05-08 08:44:42,698 - ERROR - WIPRO.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,700 - INFO - Processing MPHASIS for intraday setups
+2025-05-08 08:44:42,726 - ERROR - HCLTECH.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,728 - INFO - Processing PIIND for intraday setups
+2025-05-08 08:44:42,766 - ERROR - TITAN.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,768 - INFO - Processing HAVELLS for intraday setups
+2025-05-08 08:44:42,794 - ERROR - SUNPHARMA.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,796 - INFO - Processing BERGEPAINT for intraday setups
+2025-05-08 08:44:42,814 - ERROR - Failed to get ticker 'TATASTEEL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,881 - ERROR - Failed to get ticker 'INDIGO.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,885 - ERROR - Failed to get ticker 'BIOCON.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,917 - ERROR - Failed to get ticker 'APOLLOHOSP.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,918 - ERROR - Failed to get ticker 'AUROPHARMA.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,919 - ERROR - Failed to get ticker 'HDFCAMC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,922 - ERROR - Failed to get ticker 'MPHASIS.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,923 - ERROR - Failed to get ticker 'PIIND.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,926 - ERROR - Failed to get ticker 'HAVELLS.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,943 - ERROR - Failed to get ticker 'BERGEPAINT.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:42,948 - ERROR - TATASTEEL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:42,950 - INFO - Processing TORNTPHARM for intraday setups
+2025-05-08 08:44:43,006 - ERROR - INDIGO.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,008 - INFO - Processing PEL for intraday setups
+2025-05-08 08:44:43,015 - ERROR - BIOCON.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,016 - INFO - Processing TATAPOWER for intraday setups
+2025-05-08 08:44:43,120 - ERROR - APOLLOHOSP.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,121 - INFO - Processing DABUR for intraday setups
+2025-05-08 08:44:43,143 - ERROR - HDFCAMC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,144 - INFO - Processing MUTHOOTFIN for intraday setups
+2025-05-08 08:44:43,146 - ERROR - AUROPHARMA.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,148 - INFO - Processing LUPIN for intraday setups
+2025-05-08 08:44:43,153 - ERROR - PIIND.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,154 - INFO - Processing BANDHANBNK for intraday setups
+2025-05-08 08:44:43,172 - ERROR - BERGEPAINT.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,172 - ERROR - Failed to get ticker 'TORNTPHARM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,173 - INFO - Processing GODREJCP for intraday setups
+2025-05-08 08:44:43,174 - ERROR - HAVELLS.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,176 - ERROR - MPHASIS.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,179 - INFO - Processing AMBUJACEM for intraday setups
+2025-05-08 08:44:43,181 - INFO - Processing CADILAHC for intraday setups
+2025-05-08 08:44:43,181 - ERROR - Failed to get ticker 'TATAPOWER.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,182 - ERROR - Failed to get ticker 'PEL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,223 - ERROR - Failed to get ticker 'DABUR.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,255 - ERROR - Failed to get ticker 'LUPIN.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,280 - ERROR - Failed to get ticker 'MUTHOOTFIN.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,285 - ERROR - Failed to get ticker 'BANDHANBNK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,362 - ERROR - TORNTPHARM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,364 - INFO - Processing BOSCHLTD for intraday setups
+2025-05-08 08:44:43,401 - ERROR - Failed to get ticker 'AMBUJACEM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,407 - ERROR - Failed to get ticker 'GODREJCP.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,409 - ERROR - TATAPOWER.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,410 - INFO - Processing SIEMENS for intraday setups
+2025-05-08 08:44:43,427 - ERROR - PEL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,428 - ERROR - Failed to get ticker 'CADILAHC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,430 - INFO - Processing IRCTC for intraday setups
+2025-05-08 08:44:43,456 - ERROR - DABUR.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,459 - INFO - Processing CHAMBLFERT for intraday setups
+2025-05-08 08:44:43,465 - ERROR - LUPIN.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,465 - ERROR - MUTHOOTFIN.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,467 - INFO - Processing GRANULES for intraday setups
+2025-05-08 08:44:43,469 - INFO - Processing CANBK for intraday setups
+2025-05-08 08:44:43,486 - ERROR - BANDHANBNK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,488 - INFO - Processing NATIONALUM for intraday setups
+2025-05-08 08:44:43,490 - ERROR - Failed to get ticker 'BOSCHLTD.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,529 - ERROR - AMBUJACEM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,531 - INFO - Processing SAIL for intraday setups
+2025-05-08 08:44:43,566 - ERROR - GODREJCP.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,567 - INFO - Processing PNB for intraday setups
+2025-05-08 08:44:43,634 - ERROR - Failed to get ticker 'SIEMENS.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,662 - ERROR - CADILAHC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,663 - INFO - Processing RVNL for intraday setups
+2025-05-08 08:44:43,664 - ERROR - Failed to get ticker 'IRCTC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,686 - ERROR - Failed to get ticker 'CANBK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,691 - ERROR - Failed to get ticker 'GRANULES.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,695 - ERROR - BOSCHLTD.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,696 - INFO - Processing CEATLTD for intraday setups
+2025-05-08 08:44:43,698 - ERROR - Failed to get ticker 'CHAMBLFERT.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,707 - ERROR - Failed to get ticker 'NATIONALUM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,724 - ERROR - Failed to get ticker 'SAIL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,725 - ERROR - Failed to get ticker 'PNB.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,751 - ERROR - SIEMENS.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,753 - INFO - Processing HINDCOPPER for intraday setups
+2025-05-08 08:44:43,791 - ERROR - Failed to get ticker 'RVNL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,817 - ERROR - IRCTC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,819 - INFO - Processing GMRINFRA for intraday setups
+2025-05-08 08:44:43,885 - ERROR - GRANULES.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,886 - INFO - Processing BANKBARODA for intraday setups
+2025-05-08 08:44:43,888 - ERROR - CANBK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,891 - INFO - Processing FEDERALBNK for intraday setups
+2025-05-08 08:44:43,912 - ERROR - CHAMBLFERT.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,914 - INFO - Processing ASHOKLEY for intraday setups
+2025-05-08 08:44:43,916 - ERROR - Failed to get ticker 'CEATLTD.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,918 - ERROR - NATIONALUM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,919 - INFO - Processing ABFRL for intraday setups
+2025-05-08 08:44:43,941 - ERROR - PNB.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,941 - ERROR - SAIL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,943 - INFO - Processing TATACHEM for intraday setups
+2025-05-08 08:44:43,944 - INFO - Processing ADANIPOWER for intraday setups
+2025-05-08 08:44:43,950 - ERROR - Failed to get ticker 'HINDCOPPER.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:43,951 - ERROR - RVNL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:43,954 - INFO - Processing MANAPPURAM for intraday setups
+2025-05-08 08:44:43,958 - ERROR - Failed to get ticker 'GMRINFRA.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:44,009 - ERROR - Failed to get ticker 'FEDERALBNK.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:44,015 - ERROR - Failed to get ticker 'BANKBARODA.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:44,076 - ERROR - Failed to get ticker 'ASHOKLEY.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:44,077 - ERROR - CEATLTD.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,078 - ERROR - Failed to get ticker 'ABFRL.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:44,080 - INFO - Processing NMDC for intraday setups
+2025-05-08 08:44:44,100 - ERROR - Failed to get ticker 'MANAPPURAM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:44,123 - ERROR - Failed to get ticker 'ADANIPOWER.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:44,126 - ERROR - HINDCOPPER.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,127 - ERROR - GMRINFRA.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,129 - INFO - Processing IDFC for intraday setups
+2025-05-08 08:44:44,130 - ERROR - Failed to get ticker 'TATACHEM.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:44,132 - INFO - Processing EXIDEIND for intraday setups
+2025-05-08 08:44:44,163 - ERROR - BANKBARODA.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,165 - INFO - Processing JINDALSAW for intraday setups
+2025-05-08 08:44:44,168 - ERROR - FEDERALBNK.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,210 - ERROR - Failed to get ticker 'NMDC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:44,214 - ERROR - ABFRL.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,215 - ERROR - ASHOKLEY.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,279 - ERROR - MANAPPURAM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,290 - ERROR - TATACHEM.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,308 - ERROR - ADANIPOWER.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,310 - ERROR - Failed to get ticker 'EXIDEIND.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:44,312 - ERROR - Failed to get ticker 'JINDALSAW.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:44,313 - ERROR - Failed to get ticker 'IDFC.NS' reason: Expecting value: line 1 column 1 (char 0)
+2025-05-08 08:44:44,341 - ERROR - NMDC.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,457 - ERROR - EXIDEIND.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,458 - ERROR - JINDALSAW.NS: No price data found, symbol may be delisted (period=60d)
+2025-05-08 08:44:44,458 - ERROR - IDFC.NS: No price data found, symbol may be delisted (period=60d)
